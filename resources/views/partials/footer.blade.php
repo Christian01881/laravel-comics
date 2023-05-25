@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div>
-                <img class="logo-bg" src="img/dc-logo-bg.png" alt="">
+                <img class="logo-bg" src="/img/dc-logo-bg.png" alt="">
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@
 <style lang="scss" scoped>
 
     .footer-top{
-        background-image: url(img/footer-bg.jpg);
+        background-image: url(/img/footer-bg.jpg);
         background-size: cover;
         height: 400px;
         overflow: hidden;

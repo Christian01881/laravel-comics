@@ -2,7 +2,7 @@
     <nav>
         <div class="container d-flex justify-content-between align-items-center">
              <div>
-            <img class="logo" src="img/dc-logo.png" alt="">
+            <img class="logo" src="/img/dc-logo.png" alt="">
             </div>
             <div>
                 <ul class="d-flex">
@@ -64,7 +64,7 @@
 
     header{
         height: 500px;
-        background-image: url(img/jumbotron.jpg);
+        background-image: url(/img/jumbotron.jpg);
         background-size: cover;
     }
 </style>

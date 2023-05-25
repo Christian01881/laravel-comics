@@ -21,9 +21,15 @@
 
 </body>
 @include('partials.header')
-    <main>
+    <main class="d-flex container gap-3 flex-wrap my-5">
+        @foreach ($data as $comic)
+        <div class="d-flex flex-column align-items-center card-container">
+            <img class="img-card" src="{{ $comic['thumb'] }}" alt="">
+            <a class="pt-3 card-link" href="{{ route('comics.show', ['index' => $loop ->index]) }}">{{ $comic['title'] }}</a>
+        </div>
 
-        </main>
+        @endforeach
+    </main>
 @include('partials.footer')
 
 </html>
